@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+         //隐藏状态栏
+        <item name="windowActionBar">true</item>
+            //隐藏标题栏
+        <item name="windowNoTitle">true</item>
+            //状态栏透明色<!--API最少19-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+    </style>
+
+    <!--toolbar样式  目前控制的就是自带的返回键颜色-->
+    <style name="toolbar_theme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/blake</item>
+        <!--<item name="android:actionBarSize">46dp</item>-->
+    </style>
+
+</resources>
